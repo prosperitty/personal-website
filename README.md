@@ -1,6 +1,6 @@
-# Personal Website
+# Portfolio Website
 
-My personal website developed with React.
+My portfolio website developed with React.
 
 ## Overview
 

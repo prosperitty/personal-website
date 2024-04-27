@@ -4,16 +4,19 @@ function About() {
       <h1>about</h1>
       <hr></hr>
       <p>
-        Hello! My name is Alex Marmolejo and I am a self-taught Full-Stack
-        Javascript Developer based in New York. I am particularly focused on the
-        MERN stack (MongoDB, Express.js, React, and Node.js). I am skilled in
-        creating visually appealing web pages with attention to detail. Also, my
-        educational backround in accounting, finance, and taxes, allows me to
-        bring a unique perspective to web development. I believe programming is
-        a powerful tool which can be used to create technology that simplifies
-        people's lives. Therefore, It would be fulfilling to have the
-        oppurtunity to begin a career working on technology which impacts
-        people's lives around the world!
+        Welcome to my portfolio page! My name is Alex Marmolejo. I am a
+        self-taught Full-Stack Javascript Developer based in New York. My skill
+        set includes the MERN stack and T3 tech stack. With these skills, I am
+        capable of building functional and visually appealing full-stack web
+        applications with attention to detail.
+      </p>
+      <p>
+        My educational backround in accounting, finance, and taxes, allows me to
+        bring a unique perspective to web development in these industries.
+        Programming is a powerful tool which can be used to create technology
+        that simplifies people's lives. Therefore, I would be pleased to have
+        the opportunity to work on technology which impacts people's lives
+        around the world!
       </p>
       <p>
         Aside from coding, I enjoy various activities across the internet in my

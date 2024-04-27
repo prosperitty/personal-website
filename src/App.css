@@ -237,6 +237,10 @@ hr {
   font-size: 1.1rem;
 }
 
+#about p {
+  text-align: start;
+}
+
 .project {
   display: flex;
   gap: 50px;

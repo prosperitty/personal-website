@@ -7,16 +7,16 @@ function About() {
         Welcome to my portfolio page! My name is Alex Marmolejo. I am a
         self-taught Full-Stack Javascript Developer based in New York. My skill
         set includes the MERN stack and T3 tech stack. With these skills, I am
-        capable of building functional and visually appealing full-stack web
+        able to build functional and visually appealing full-stack web
         applications with attention to detail.
       </p>
       <p>
-        My educational backround in accounting, finance, and taxes, allows me to
-        bring a unique perspective to web development in these industries.
-        Programming is a powerful tool which can be used to create technology
-        that simplifies people's lives. Therefore, I would be happy to work on
-        technology that directly impacts and improves people's lives around the
-        world!
+        My educational background in accounting, finance, and taxes, allows me
+        to bring a unique perspective to web development in these industries.
+        Although I am capable of understanding the problems these industries
+        face, I am prepared to solve issues in any industry by using the power
+        of code! Therefore, I would be happy to work on technology that directly
+        impacts and improves people's lives.
       </p>
       <p>
         Aside from coding, I enjoy various activities across the internet in my

@@ -14,7 +14,7 @@ function About() {
         My educational background in accounting, finance, and taxes, allows me
         to bring a unique perspective to web development in these industries.
         Although I am capable of understanding the problems these industries
-        face, I am prepared to solve issues in any industry by using the power
+        face, I am prepared to solve problems in any industry by using the power
         of code! Therefore, I would be happy to work on technology that directly
         impacts and improves people's lives.
       </p>

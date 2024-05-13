@@ -2,7 +2,7 @@ function About() {
   return (
     <div className='pad-y' id='about'>
       <h1>about</h1>
-      <hr></hr>
+      <hr className='hr-section'></hr>
       <p>
         Welcome to my portfolio page! My name is Alex Marmolejo. I am a
         self-taught Full-Stack Javascript Developer based in New York. My skill
@@ -14,9 +14,9 @@ function About() {
         My educational backround in accounting, finance, and taxes, allows me to
         bring a unique perspective to web development in these industries.
         Programming is a powerful tool which can be used to create technology
-        that simplifies people's lives. Therefore, I would be pleased to have
-        the opportunity to work on technology which impacts people's lives
-        around the world!
+        that simplifies people's lives. Therefore, I would be happy to work on
+        technology that directly impacts and improves people's lives around the
+        world!
       </p>
       <p>
         Aside from coding, I enjoy various activities across the internet in my

@@ -29,6 +29,7 @@ h1 {
 }
 
 h2 {
+  margin: 0;
   font-weight: 200;
   animation: 0.5s ease-in-out 0s 1 slideInLeft;
 }
@@ -36,7 +37,7 @@ h2 {
 hr {
   height: 6px;
   width: 25%;
-  margin: 20px 0 60px 0;
+  margin: 2rem 0 2rem 0;
 
   border: none;
 
@@ -46,6 +47,10 @@ hr {
   transition: 0.3s;
   animation: 0.5s ease-in-out 0s 1 slideInLeft;
   overflow: hidden;
+}
+
+.hr-section {
+  margin: 1rem 0 4rem 0;
 }
 
 .pad {
@@ -92,6 +97,7 @@ hr {
 .nav-handler svg {
   width: 100%;
   height: 100%;
+  padding: 3px;
 }
 
 .nav-links {
@@ -124,45 +130,58 @@ hr {
 
   box-sizing: border-box;
   background-color: #fede44;
+  overflow: hidden;
 }
 
 .jumbotron-header {
   width: 50%;
   align-self: center;
-  justify-self: start;
+  justify-self: flex-start;
 }
 
 .profile-image-container {
   max-width: 700px;
   width: 50%;
-  padding-right: 60px;
-  margin-left: auto;
+  margin: 0 auto;
+  padding: 0 2rem;
 
   box-sizing: border-box;
-  overflow: hidden;
   animation: 0.5s ease-in-out 0s 1 slideInRight;
 }
 
 .profile-image {
   display: block;
   width: 100%;
-  max-height: 800px;
+  height: 100%;
   padding: 0;
   margin: 0;
 
   object-fit: cover;
   object-position: top;
 
+  border: 2px solid #282c34;
   border-radius: 2px;
 }
 
+.jumbotron-socials {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .social-icons {
-  display: inline-block;
   width: 5%;
-  padding-right: 50px;
+  padding-right: 15%;
+}
+
+.social-icons a {
+  display: flex;
 }
 
 .social-icons svg {
+  min-width: 30px;
+  min-height: 30px;
   fill: #282c34;
   transition: 0.2s;
 }
@@ -181,6 +200,7 @@ hr {
   font-family: inherit;
 
   border: none;
+  border-radius: 1px;
   background-color: #282c34;
 
   transition: 0.3s;
@@ -204,7 +224,7 @@ hr {
   grid-template-rows: 30px repeat(4, 1fr);
 
   border: 1px solid #282c34;
-  border-radius: 10px;
+  border-radius: 3px;
 
   background-color: #fede44;
 }
@@ -282,6 +302,7 @@ hr {
 
   object-fit: cover;
   border: 1px solid rgba(92, 92, 92, 0.292);
+  border-radius: 1px;
 }
 
 .project-stack-container {
@@ -395,16 +416,25 @@ footer hr {
 
   .nav-handler {
     width: 35px;
-    /* padding: 5px 8px; */
-    padding: 3px;
     display: flex;
     box-sizing: border-box;
 
-    border: 1.5px solid #282c34;
+    border: 2px solid #282c34;
     border-radius: 5px;
 
     cursor: pointer;
+    transition: all ease-in-out 0.2s;
   }
+
+  .nav-handler svg:hover {
+    fill: white;
+    transition: all ease-in-out 0.2s;
+  }
+
+  .nav-handler:hover {
+    border: 2px solid white;
+  }
+  
 
   .nav-icon {
     fill: #282c34;
@@ -413,7 +443,7 @@ footer hr {
   .profile-image-container {
     width: 200px;
     height: 200px;
-    padding-right: 0px;
+    padding: 0px;
     margin: 0 0 40px 0;  
   }
   
@@ -436,6 +466,10 @@ footer hr {
   .jumbotron-header {
     width: 100%;
     text-align: center;
+  }
+
+  .jumbotron-socials {
+    justify-content: center;
   }
   
   .social-icons {

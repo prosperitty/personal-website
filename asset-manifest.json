@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.65ccd725.css",
-    "main.js": "/personal-website/static/js/main.51709a3e.js",
+    "main.css": "/personal-website/static/css/main.d088cf85.css",
+    "main.js": "/personal-website/static/js/main.b349a5f5.js",
     "static/js/787.28a6522c.chunk.js": "/personal-website/static/js/787.28a6522c.chunk.js",
     "static/media/restaurant-preview.png": "/personal-website/static/media/restaurant-preview.0d89210de97fb37c2fa4.png",
     "static/media/blog-app-preview.png": "/personal-website/static/media/blog-app-preview.7f7aa29996970582c29d.png",
@@ -18,31 +18,38 @@
     "static/media/calculator-preview.png": "/personal-website/static/media/calculator-preview.552ea6294d83a240fa5a.png",
     "static/media/nextjs-blog-preview.png": "/personal-website/static/media/nextjs-blog-preview.e3f609f0dc33057a3df7.png",
     "static/media/battleship-preview.png": "/personal-website/static/media/battleship-preview.dd66b82d7b79ee4a6424.png",
+    "static/media/wreathe-preview.png": "/personal-website/static/media/wreathe-preview.7702f5db4ff2ddb0247e.png",
+    "static/media/developer-roadmap.png": "/personal-website/static/media/developer-roadmap.c45a214444686a0dff25.png",
+    "static/media/postgresql-vector.svg": "/personal-website/static/media/postgresql-vector.4a4e0fd30b98e7bdda633a76106ac15b.svg",
     "static/media/sass-vector.svg": "/personal-website/static/media/sass-vector.6a1b74390ff897cb35e34e63ab781eed.svg",
     "static/media/react-vector.svg": "/personal-website/static/media/react-vector.a1baa1eeed2a284c48efc73a0e7eef9f.svg",
     "static/media/pug-vector.svg": "/personal-website/static/media/pug-vector.9a7524f7e5705b9bf30a14935dc98a7f.svg",
     "static/media/nextjs-vector.svg": "/personal-website/static/media/nextjs-vector.cce1cb893df94458a94d3175796b58d9.svg",
+    "static/media/mongoose-vector.svg": "/personal-website/static/media/mongoose-vector.f67505c1a1413d691e16155f5193545d.svg",
     "static/media/github-vector.svg": "/personal-website/static/media/github-vector.74afedd1b6d7d7bc6b4f462c3646475e.svg",
     "static/media/node-vector.svg": "/personal-website/static/media/node-vector.a0017e616f84faee389611772d180933.svg",
     "index.html": "/personal-website/index.html",
     "static/media/jest-vector.svg": "/personal-website/static/media/jest-vector.8bb2a98fe8aa8bb62dcb6a16436d209c.svg",
     "static/media/express-vector.svg": "/personal-website/static/media/express-vector.baaad276e80e55c1f14995a34893861a.svg",
     "static/media/ejs-vector.svg": "/personal-website/static/media/ejs-vector.902e66f7b71f1336231bacdc428f9422.svg",
+    "static/media/tailwind-vector.svg": "/personal-website/static/media/tailwind-vector.46b0c5274b547dc038c4b3ff5b44641f.svg",
     "static/media/javascript-vector.svg": "/personal-website/static/media/javascript-vector.99247bd854b6e8b7e72037da7b9cf935.svg",
     "static/media/git-vector.svg": "/personal-website/static/media/git-vector.82b0ba130f956d6789519c038d5659c6.svg",
+    "static/media/typescript-vector.svg": "/personal-website/static/media/typescript-vector.6f26a9c412dbef6180c5844614d15450.svg",
     "static/media/bootstrap-vector.svg": "/personal-website/static/media/bootstrap-vector.9d7f40512af90a28ac70a99c75688987.svg",
+    "static/media/prisma-vector.svg": "/personal-website/static/media/prisma-vector.1b7b94e08b86a0bbf43cb90ba8715226.svg",
     "static/media/webpack-vector.svg": "/personal-website/static/media/webpack-vector.84f8fa38b2645ddebede4af0f7aace78.svg",
     "static/media/api-vector.svg": "/personal-website/static/media/api-vector.971f28eb3472f228f2678ff48f17d5be.svg",
     "static/media/firebase-vector.svg": "/personal-website/static/media/firebase-vector.d5d3184579cd1279ded1356b7c6bdc3a.svg",
     "static/media/mongo-vector.svg": "/personal-website/static/media/mongo-vector.f0b65e3a2511b6804c78fac9e3a41698.svg",
     "static/media/css-vector.svg": "/personal-website/static/media/css-vector.e25b694ce4d0bbdd8353e55b98790a4d.svg",
     "static/media/html-vector.svg": "/personal-website/static/media/html-vector.21b6a1375c26a617b25942461f4ba7f7.svg",
-    "main.65ccd725.css.map": "/personal-website/static/css/main.65ccd725.css.map",
-    "main.51709a3e.js.map": "/personal-website/static/js/main.51709a3e.js.map",
+    "main.d088cf85.css.map": "/personal-website/static/css/main.d088cf85.css.map",
+    "main.b349a5f5.js.map": "/personal-website/static/js/main.b349a5f5.js.map",
     "787.28a6522c.chunk.js.map": "/personal-website/static/js/787.28a6522c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65ccd725.css",
-    "static/js/main.51709a3e.js"
+    "static/css/main.d088cf85.css",
+    "static/js/main.b349a5f5.js"
   ]
 }

@@ -26,12 +26,14 @@ h1 {
   font-weight: 400;
   text-transform: uppercase;
   animation: 0.5s ease-in-out 0s 1 slideInLeft;
+  transition: 0.1ms
 }
 
 h2 {
   margin: 0;
   font-weight: 200;
   animation: 0.5s ease-in-out 0s 1 slideInLeft;
+  transition: 0.1ms
 }
 
 hr {
@@ -45,7 +47,7 @@ hr {
   
   background-color: #282c34;
   transition: 0.3s;
-  animation: 0.5s ease-in-out 0s 1 slideInLeft;
+  animation: 0.25s ease-in-out 0s 1 slideInLeft;
   overflow: hidden;
 }
 
@@ -98,6 +100,10 @@ hr {
   width: 100%;
   height: 100%;
   padding: 3px;
+}
+
+.nav-link-container {
+  animation: 0.5s ease-in-out 0s 1 slideInRight;
 }
 
 .nav-links {
@@ -385,6 +391,7 @@ footer hr {
 @media screen and (max-width: 900px) {
   p {
     text-align: center;
+    font-size: 1.05em;
   }
 
   .nav {
@@ -402,6 +409,11 @@ footer hr {
     display: block;
     padding: 10px 0;
     text-align: start;
+  }
+  
+  .nav-link-container {
+    animation: none;
+    overflow: hidden;
   }
 
   .toggle-visibility {
@@ -435,7 +447,6 @@ footer hr {
     border: 2px solid white;
   }
   
-
   .nav-icon {
     fill: #282c34;
   }
@@ -445,6 +456,7 @@ footer hr {
     height: 200px;
     padding: 0px;
     margin: 0 0 40px 0;  
+    animation: none;
   }
   
   .profile-image {
@@ -527,5 +539,14 @@ footer hr {
   }
   100% {
     transform: translateX(0);
+  }
+}
+
+@keyframes slideInTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
   }
 }

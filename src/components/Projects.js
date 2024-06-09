@@ -1,20 +1,20 @@
-import blogPreview from '../images/blog-app-preview.png'
-import todolistPreview from '../images/todo-list-preview.png'
-import princessPreview from '../images/wheres-the-princess-preview.png'
-import weatherApp from '../images/weather-app-preview.png'
-import computerWorldPreview from '../images/computer-world-preview.png'
-import battleshipPreview from '../images/battleship-preview.png'
-import newsweekPreview from '../images/newsweek-clone-preview.png'
-import restaurantPreview from '../images/restaurant-preview.png'
-import tictactoePreview from '../images/tic-tac-toe-preview.png'
-import youtubePreview from '../images/youtube-clone-preview.png'
-import calculatorPreview from '../images/calculator-preview.png'
-import membersPreview from '../images/members-preview.png'
-import rentagamePreview from '../images/rent-a-game-preview.png'
-import nextPreview from '../images/nextjs-blog-preview.png'
-import wreathePreview from '../images/wreathe-preview.png'
-import Skill from './Skill'
-import Project from './Project'
+import blogPreview from '../images/blog-app-preview.png';
+import todolistPreview from '../images/todo-list-preview.png';
+import princessPreview from '../images/wheres-the-princess-preview.png';
+import weatherApp from '../images/weather-app-preview.png';
+import computerWorldPreview from '../images/computer-world-preview.png';
+import battleshipPreview from '../images/battleship-preview.png';
+import newsweekPreview from '../images/newsweek-clone-preview.png';
+import restaurantPreview from '../images/restaurant-preview.png';
+import tictactoePreview from '../images/tic-tac-toe-preview.png';
+import youtubePreview from '../images/youtube-clone-preview.png';
+import calculatorPreview from '../images/calculator-preview.png';
+import membersPreview from '../images/members-preview.png';
+import rentagamePreview from '../images/rent-a-game-preview.png';
+import nextPreview from '../images/nextjs-blog-preview.png';
+import wreathePreview from '../images/wreathe-preview.png';
+import Skill from './Skill';
+import Project from './Project';
 
 function Projects(props) {
   return (
@@ -26,9 +26,9 @@ function Projects(props) {
         preview={wreathePreview}
         title='Wreathe'
         alt='wreathe app preview'
-        description='A social media app for investors. Built with full-stack modern technologies. Functionality is similar to twitter. Includes search, messaging, profile creation, and more. (This app is still in progress)'
+        description='A social media app for investors. Built with full-stack modern technologies. Functionality is similar to twitter. Includes search, messaging, profile creation, and more.'
         githubURL='https://github.com/alex-lvl/wreathe'
-        demoURL='#'
+        demoURL='https://wreathe.vercel.app/'
       >
         <Skill
           name='typescript'
@@ -404,7 +404,7 @@ function Projects(props) {
         />
       </Project>
     </div>
-  )
+  );
 }
 
-export default Projects
+export default Projects;

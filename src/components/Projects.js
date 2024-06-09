@@ -1,18 +1,18 @@
-import blogPreview from '../images/blog-app-preview.png';
-import todolistPreview from '../images/todo-list-preview.png';
-import princessPreview from '../images/wheres-the-princess-preview.png';
-import weatherApp from '../images/weather-app-preview.png';
-import computerWorldPreview from '../images/computer-world-preview.png';
-import battleshipPreview from '../images/battleship-preview.png';
-import newsweekPreview from '../images/newsweek-clone-preview.png';
-import restaurantPreview from '../images/restaurant-preview.png';
-import tictactoePreview from '../images/tic-tac-toe-preview.png';
-import youtubePreview from '../images/youtube-clone-preview.png';
-import calculatorPreview from '../images/calculator-preview.png';
-import membersPreview from '../images/members-preview.png';
-import rentagamePreview from '../images/rent-a-game-preview.png';
-import nextPreview from '../images/nextjs-blog-preview.png';
-import wreathePreview from '../images/wreathe-preview.png';
+import blogPreview from '../images/blog-app-preview.webp';
+import todolistPreview from '../images/todo-list-preview.webp';
+import princessPreview from '../images/wheres-the-princess-preview.webp';
+import weatherApp from '../images/weather-app-preview.webp';
+import computerWorldPreview from '../images/computer-world-preview.webp';
+import battleshipPreview from '../images/battleship-preview.webp';
+import newsweekPreview from '../images/newsweek-clone-preview.webp';
+import restaurantPreview from '../images/restaurant-preview.webp';
+import tictactoePreview from '../images/tic-tac-toe-preview.webp';
+import youtubePreview from '../images/youtube-clone-preview.webp';
+import calculatorPreview from '../images/calculator-preview.webp';
+import membersPreview from '../images/members-preview.webp';
+import rentagamePreview from '../images/rent-a-game-preview.webp';
+import nextPreview from '../images/nextjs-blog-preview.webp';
+import wreathePreview from '../images/wreathe-preview.webp';
 import Skill from './Skill';
 import Project from './Project';
 
@@ -26,7 +26,7 @@ function Projects(props) {
         preview={wreathePreview}
         title='Wreathe'
         alt='wreathe app preview'
-        description='A social media app for investors. Built with full-stack modern technologies. Functionality is similar to twitter. Includes search, messaging, profile creation, and more.'
+        description='A social media app for investors. Built with full-stack modern technologies. Functionality is similar to twitter. Includes search, instant messaging, profile creation, and more.'
         githubURL='https://github.com/alex-lvl/wreathe'
         demoURL='https://wreathe.vercel.app/'
       >

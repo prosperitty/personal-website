@@ -1,6 +1,6 @@
-import Project from './Project'
-import roadmapPreview from '../images/developer-roadmap.png'
-import Skill from './Skill'
+import Project from './Project';
+import roadmapPreview from '../images/developer-roadmap.webp';
+import Skill from './Skill';
 
 function Experience() {
   return (
@@ -18,7 +18,7 @@ function Experience() {
         <Skill name='open-source' class='project-stack-icon' />
       </Project>
     </div>
-  )
+  );
 }
 
-export default Experience
+export default Experience;

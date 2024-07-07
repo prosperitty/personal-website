@@ -1,5 +1,14 @@
 a {
   text-decoration: none;
+  
+}
+
+p > a:link {
+  color: #e32c76;
+}
+
+p > a:visited {
+  color: #d27fff;
 }
 
 .App-link {

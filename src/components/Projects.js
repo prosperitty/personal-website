@@ -72,7 +72,7 @@ function Projects(props) {
         />
       </Project>
 
-      <Project
+      {/* <Project
         preview={nextPreview}
         title='Personal Blog'
         alt='next.js personal blog preview'
@@ -95,7 +95,7 @@ function Projects(props) {
           class='project-stack-icon'
           vector={props.apiIcon}
         />
-      </Project>
+      </Project> */}
 
       <Project
         preview={blogPreview}

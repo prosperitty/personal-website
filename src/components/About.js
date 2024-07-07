@@ -6,9 +6,9 @@ function About() {
       <p>
         Welcome to my portfolio page! My name is Alex Marmolejo. I am a
         self-taught Full-Stack Javascript Developer based in New York. My skill
-        set includes the MERN stack and T3 tech stack. With these skills, I am
-        able to build functional and visually appealing full-stack web
-        applications with attention to detail.
+        set includes the MERN stack and "T3 stack". With these skills, I am able
+        to build functional and visually appealing full-stack web applications
+        with attention to detail.
       </p>
       <p>
         My educational background in accounting, finance, and taxes, allows me
@@ -31,7 +31,7 @@ function About() {
         assets.
       </p>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;

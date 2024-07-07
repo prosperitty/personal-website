@@ -26,7 +26,7 @@ function About() {
         interest of mine. In relation to web3/cryptocurrency, investing and
         trading in stocks or cryptocurrencies is an active hobby I have
         participated in since my college years. I try to
-        <a href='https://nextjs-blog-git-main-alex-lvl.vercel.app/'> blog </a>
+        <a href='https://nextjs-blog-one-pi-24.vercel.app/'> blog </a>
         about interesting economic events and how they affect the price of these
         assets.
       </p>

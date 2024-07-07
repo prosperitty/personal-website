@@ -78,7 +78,7 @@ function Projects(props) {
         alt='next.js personal blog preview'
         description='This project was built with the next.js tutorial guide which also utilizes the external api endpoint from my blog api project to retrieve blog posts authored by me'
         githubURL='https://github.com/prosperitty/nextjs-blog'
-        demoURL='https://nextjs-blog-git-main-alex-lvl.vercel.app/'
+        demoURL='https://nextjs-blog-one-pi-24.vercel.app/'
       >
         <Skill
           name='next.js'

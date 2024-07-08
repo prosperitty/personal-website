@@ -1,11 +1,11 @@
 const Nav = (props) => {
   function displayLinks() {
-    const navLinks = document.querySelector('.nav-link-container')
-    navLinks.classList.toggle('toggle-visibility')
+    const navLinks = document.querySelector('.nav-link-container');
+    navLinks.classList.toggle('toggle-visibility');
   }
 
   return (
-    <nav className='nav pad'>
+    <nav className='nav pad-x max-w'>
       <div className='logo-container'>
         <a className='nav-logo' href='#home'>
           <svg
@@ -61,7 +61,7 @@ const Nav = (props) => {
         </a>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

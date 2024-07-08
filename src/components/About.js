@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className='pad-y' id='about'>
+    <div className='pad-y pad-x' id='about'>
       <h1>about</h1>
       <hr className='hr-section'></hr>
       <p>

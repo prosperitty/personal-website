@@ -3,7 +3,7 @@ import alex2 from '../images/alex-selfie2.webp';
 
 function Jumbotron() {
   return (
-    <div className='jumbotron pad' id='home'>
+    <div className='jumbotron pad-x max-w' id='home'>
       <div className='jumbotron-header'>
         <h1>Alex</h1>
         <h1>Marmolejo</h1>

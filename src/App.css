@@ -15,7 +15,19 @@ p > a:visited {
   color: #61dafb;
 }
 
+.app-header {
+  width: 100%;
+  background-color: #fede44;
+}
+
+.max-w {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
 body {
+  /* width: 100%; */
   padding: 0;
   margin: 0;
 
@@ -64,7 +76,7 @@ hr {
   margin: 1rem 0 4rem 0;
 }
 
-.pad {
+.pad-x {
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -72,8 +84,8 @@ hr {
 .pad-y {
   padding-top: 25px;
   padding-bottom: 25px;
-  padding-left: 40px;
-  padding-right: 40px;
+  /* padding-left: 40px;
+  padding-right: 40px; */
 }
 
 .nav {
@@ -84,16 +96,22 @@ hr {
   padding-top: 20px;
   padding-bottom: 20px;
 
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 2;
-
   color: #282c34;
   font-size: 1.2em;
   font-weight: 300;
   font-family: 'Nunito', sans-serif;
 
+  background-color: #fede44;
+
+  overflow: hidden;
+}
+
+.nav-container {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
   background-color: #fede44;
 }
 
@@ -129,6 +147,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  flex-shrink: 0;
 
   white-space: nowrap;
   color: inherit;
@@ -137,8 +156,9 @@ hr {
 .jumbotron {
   display: flex;
   width: 100%;
-  max-height: 800px;
-  padding: 10px 40px 100px 40px;
+  /* max-height: 800px; */
+  padding-top: 20px;
+  padding-bottom: 100px;
 
   color: #282c34;
   font-size: 2.5vw;
@@ -149,16 +169,18 @@ hr {
 }
 
 .jumbotron-header {
-  width: 50%;
+  /* width: 50%; */
   align-self: center;
-  justify-self: flex-start;
+  flex: 1 1 65%;
 }
 
 .profile-image-container {
   max-width: 700px;
-  width: 50%;
+  max-height: 800px;
+  flex: 0 1 45%;
+  /* width: 50%; */
   margin: 0 auto;
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
 
   box-sizing: border-box;
   animation: 0.5s ease-in-out 0s 1 slideInRight;
@@ -227,7 +249,7 @@ hr {
 
 .skills-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 20px 0;
 }
 
@@ -278,7 +300,8 @@ hr {
 
 .project {
   display: flex;
-  gap: 50px;
+  justify-content: space-between;
+  gap: 60px;
   width: 100%;
   margin-bottom: 80px;
 }
@@ -289,9 +312,20 @@ hr {
 
 .project-preview-container {
   display: flex;
-  width: 50%;
+  flex-basis: 50%;
+  max-width: 700px;
   justify-content: center;
   align-items: center;
+}
+
+.project-preview-container img {
+  width: 100%;
+  /* height: 100%; */
+  /* padding: 200px 0; */
+  max-height: 350px;
+  object-fit: contain;
+  box-sizing: border-box;
+  object-position: top;
 }
 
 .project-description-container {
@@ -299,8 +333,13 @@ hr {
   flex-direction: column;
   justify-content: center;
   width: 50%;
+  max-width: 700px;
 
   text-align: center;
+}
+
+.project-description-container p {
+  text-align: start;
 }
 
 .project-description-container h3 {
@@ -354,7 +393,9 @@ hr {
 
 .button-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  gap: 60px;
+  /* padding: 0 40px; */
 }
 
 .button-container button {
@@ -362,8 +403,8 @@ hr {
 }
 
 .button-container form {
-  display: inline-block;
-  width: 40%;
+  display: flex;
+  flex-basis: 100%;
 }
 
 footer {
@@ -461,6 +502,7 @@ footer hr {
   }
 
   .profile-image-container {
+    flex-basis: 0;
     width: 200px;
     height: 200px;
     padding: 0px;

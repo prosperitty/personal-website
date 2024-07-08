@@ -11,14 +11,14 @@ import youtubePreview from '../images/youtube-clone-preview.webp';
 import calculatorPreview from '../images/calculator-preview.webp';
 import membersPreview from '../images/members-preview.webp';
 import rentagamePreview from '../images/rent-a-game-preview.webp';
-import nextPreview from '../images/nextjs-blog-preview.webp';
+// import nextPreview from '../images/nextjs-blog-preview.webp';
 import wreathePreview from '../images/wreathe-preview.webp';
 import Skill from './Skill';
 import Project from './Project';
 
 function Projects(props) {
   return (
-    <div className='pad-y' id='projects'>
+    <div className='pad-y pad-x' id='projects'>
       <h1>projects</h1>
       <hr className='hr-section'></hr>
 

@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className='pad-y' id='contact'>
+    <footer className='pad-y pad-x' id='contact'>
       <div className='footer-icon-container'>
         <div className='footer-icons'>
           <a href='https://github.com/prosperitty'>

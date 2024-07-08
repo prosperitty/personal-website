@@ -1,8 +1,8 @@
-import Skill from './Skill'
+import Skill from './Skill';
 
 function Skills(props) {
   return (
-    <div className='pad-y' id='skills'>
+    <div className='pad-y pad-x' id='skills'>
       <h1>skills</h1>
       <hr className='hr-section'></hr>
       <div className='skills-container'>
@@ -70,7 +70,7 @@ function Skills(props) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Skills
+export default Skills;

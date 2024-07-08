@@ -4,7 +4,7 @@ import Skill from './Skill';
 
 function Experience() {
   return (
-    <div className='pad-y' id='experience'>
+    <div className='pad-y pad-x' id='experience'>
       <h1>Experience</h1>
       <hr className='hr-section'></hr>
       <Project

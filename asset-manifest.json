@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.740044e2.css",
-    "main.js": "/personal-website/static/js/main.2d82b5ee.js",
+    "main.css": "/personal-website/static/css/main.3d7c699a.css",
+    "main.js": "/personal-website/static/js/main.895598eb.js",
     "static/js/787.28a6522c.chunk.js": "/personal-website/static/js/787.28a6522c.chunk.js",
     "static/media/restaurant-preview.webp": "/personal-website/static/media/restaurant-preview.965e1f382d98c132967f.webp",
     "static/media/alex-selfie2.webp": "/personal-website/static/media/alex-selfie2.cf631383f304b2926958.webp",
@@ -10,7 +10,6 @@
     "static/media/youtube-clone-preview.webp": "/personal-website/static/media/youtube-clone-preview.5d23ac6feec160c99789.webp",
     "static/media/blog-app-preview.webp": "/personal-website/static/media/blog-app-preview.7e56ab58554fb3143b95.webp",
     "static/media/rent-a-game-preview.webp": "/personal-website/static/media/rent-a-game-preview.ebe859a47d8345e0ba8f.webp",
-    "static/media/nextjs-blog-preview.webp": "/personal-website/static/media/nextjs-blog-preview.33495fe2024fbdb5023a.webp",
     "static/media/computer-world-preview.webp": "/personal-website/static/media/computer-world-preview.60f60443abf7dd993a4f.webp",
     "static/media/members-preview.webp": "/personal-website/static/media/members-preview.a21214ca92d04250e12d.webp",
     "static/media/weather-app-preview.webp": "/personal-website/static/media/weather-app-preview.903b8f78e0e14bdd1f8a.webp",
@@ -44,12 +43,12 @@
     "static/media/mongo-vector.svg": "/personal-website/static/media/mongo-vector.f0b65e3a2511b6804c78fac9e3a41698.svg",
     "static/media/css-vector.svg": "/personal-website/static/media/css-vector.e25b694ce4d0bbdd8353e55b98790a4d.svg",
     "static/media/html-vector.svg": "/personal-website/static/media/html-vector.21b6a1375c26a617b25942461f4ba7f7.svg",
-    "main.740044e2.css.map": "/personal-website/static/css/main.740044e2.css.map",
-    "main.2d82b5ee.js.map": "/personal-website/static/js/main.2d82b5ee.js.map",
+    "main.3d7c699a.css.map": "/personal-website/static/css/main.3d7c699a.css.map",
+    "main.895598eb.js.map": "/personal-website/static/js/main.895598eb.js.map",
     "787.28a6522c.chunk.js.map": "/personal-website/static/js/787.28a6522c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.740044e2.css",
-    "static/js/main.2d82b5ee.js"
+    "static/css/main.3d7c699a.css",
+    "static/js/main.895598eb.js"
   ]
 }

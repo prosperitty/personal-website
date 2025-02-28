@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.3d7c699a.css",
-    "main.js": "/personal-website/static/js/main.895598eb.js",
+    "main.js": "/personal-website/static/js/main.55010552.js",
     "static/js/787.28a6522c.chunk.js": "/personal-website/static/js/787.28a6522c.chunk.js",
     "static/media/restaurant-preview.webp": "/personal-website/static/media/restaurant-preview.965e1f382d98c132967f.webp",
     "static/media/alex-selfie2.webp": "/personal-website/static/media/alex-selfie2.cf631383f304b2926958.webp",
     "static/media/wheres-the-princess-preview.webp": "/personal-website/static/media/wheres-the-princess-preview.b5f51802f7bc5b1f65da.webp",
     "static/media/newsweek-clone-preview.webp": "/personal-website/static/media/newsweek-clone-preview.8b9f736c75b6ef9c8610.webp",
+    "static/media/codedex-summer-hackathon.webp": "/personal-website/static/media/codedex-summer-hackathon.7957403a9bd77794c455.webp",
     "static/media/youtube-clone-preview.webp": "/personal-website/static/media/youtube-clone-preview.5d23ac6feec160c99789.webp",
     "static/media/blog-app-preview.webp": "/personal-website/static/media/blog-app-preview.7e56ab58554fb3143b95.webp",
     "static/media/rent-a-game-preview.webp": "/personal-website/static/media/rent-a-game-preview.ebe859a47d8345e0ba8f.webp",
@@ -23,10 +24,12 @@
     "static/media/sass-vector.svg": "/personal-website/static/media/sass-vector.6a1b74390ff897cb35e34e63ab781eed.svg",
     "static/media/react-vector.svg": "/personal-website/static/media/react-vector.a1baa1eeed2a284c48efc73a0e7eef9f.svg",
     "static/media/pug-vector.svg": "/personal-website/static/media/pug-vector.9a7524f7e5705b9bf30a14935dc98a7f.svg",
+    "static/media/playwright-vector.svg": "/personal-website/static/media/playwright-vector.94b45adbfab2b518b3c0ad8a1fdcbca9.svg",
     "static/media/nextjs-vector.svg": "/personal-website/static/media/nextjs-vector.cce1cb893df94458a94d3175796b58d9.svg",
     "static/media/mongoose-vector.svg": "/personal-website/static/media/mongoose-vector.f67505c1a1413d691e16155f5193545d.svg",
     "static/media/github-vector.svg": "/personal-website/static/media/github-vector.74afedd1b6d7d7bc6b4f462c3646475e.svg",
     "static/media/node-vector.svg": "/personal-website/static/media/node-vector.a0017e616f84faee389611772d180933.svg",
+    "static/media/vite-vector.svg": "/personal-website/static/media/vite-vector.9fd93765a714786d840729cdd72664ca.svg",
     "index.html": "/personal-website/index.html",
     "static/media/jest-vector.svg": "/personal-website/static/media/jest-vector.8bb2a98fe8aa8bb62dcb6a16436d209c.svg",
     "static/media/express-vector.svg": "/personal-website/static/media/express-vector.baaad276e80e55c1f14995a34893861a.svg",
@@ -44,11 +47,11 @@
     "static/media/css-vector.svg": "/personal-website/static/media/css-vector.e25b694ce4d0bbdd8353e55b98790a4d.svg",
     "static/media/html-vector.svg": "/personal-website/static/media/html-vector.21b6a1375c26a617b25942461f4ba7f7.svg",
     "main.3d7c699a.css.map": "/personal-website/static/css/main.3d7c699a.css.map",
-    "main.895598eb.js.map": "/personal-website/static/js/main.895598eb.js.map",
+    "main.55010552.js.map": "/personal-website/static/js/main.55010552.js.map",
     "787.28a6522c.chunk.js.map": "/personal-website/static/js/787.28a6522c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d7c699a.css",
-    "static/js/main.895598eb.js"
+    "static/js/main.55010552.js"
   ]
 }

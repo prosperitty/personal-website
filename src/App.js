@@ -28,6 +28,8 @@ import postgresVector from './images/vectors/postgresql-vector.svg';
 import typesciptVector from './images/vectors/typescript-vector.svg';
 import mongooseVector from './images/vectors/mongoose-vector.svg';
 import prismaVector from './images/vectors/prisma-vector.svg';
+import playwrightIcon from './images/vectors/playwright-vector.svg';
+import viteIcon from './images/vectors/vite-vector.svg';
 import { ReactSVG } from 'react-svg';
 import Experience from './components/Experience';
 
@@ -66,8 +68,36 @@ function App() {
           typescriptIcon={<ReactSVG src={typesciptVector} />}
           mongooseIcon={<ReactSVG src={mongooseVector} />}
           prismaIcon={<ReactSVG src={prismaVector} />}
+          playwrightIcon={<ReactSVG src={playwrightIcon} />}
+          viteIcon={<ReactSVG src={viteIcon} />}
         />
-        <Experience />
+        <Experience
+          htmlIcon={<ReactSVG src={htmlVector} />}
+          cssIcon={<ReactSVG src={cssVector} />}
+          javascriptIcon={<ReactSVG src={javascriptVector} />}
+          bootstrapIcon={<ReactSVG src={bootstrapVector} />}
+          sassIcon={<ReactSVG src={sassVector} />}
+          tailwindIcon={<ReactSVG src={tailwindVector} />}
+          reactIcon={<ReactSVG src={reactVector} />}
+          nextIcon={<ReactSVG src={nextVector} />}
+          nodeIcon={<ReactSVG src={nodeVector} />}
+          expressIcon={<ReactSVG src={expressVector} />}
+          mongoIcon={<ReactSVG src={mongoVector} />}
+          postgresIcon={<ReactSVG src={postgresVector} />}
+          pugIcon={<ReactSVG src={pugVector} />}
+          ejsIcon={<ReactSVG src={ejsVector} />}
+          jestIcon={<ReactSVG src={jestVector} />}
+          gitIcon={<ReactSVG src={gitVector} />}
+          githubIcon={<ReactSVG src={githubVector} />}
+          firebaseIcon={<ReactSVG src={firebaseVector} />}
+          webpackIcon={<ReactSVG src={webpackVector} />}
+          apiIcon={<ReactSVG src={apiVector} />}
+          typescriptIcon={<ReactSVG src={typesciptVector} />}
+          mongooseIcon={<ReactSVG src={mongooseVector} />}
+          prismaIcon={<ReactSVG src={prismaVector} />}
+          playwrightIcon={<ReactSVG src={playwrightIcon} />}
+          viteIcon={<ReactSVG src={viteIcon} />}
+        />
         <Projects
           htmlIcon={<ReactSVG src={htmlVector} />}
           cssIcon={<ReactSVG src={cssVector} />}
@@ -92,6 +122,8 @@ function App() {
           postgresIcon={<ReactSVG src={postgresVector} />}
           tailwindIcon={<ReactSVG src={tailwindVector} />}
           typescriptIcon={<ReactSVG src={typesciptVector} />}
+          playwrightIcon={<ReactSVG src={playwrightIcon} />}
+          viteIcon={<ReactSVG src={viteIcon} />}
         />
       </div>
       <Footer />

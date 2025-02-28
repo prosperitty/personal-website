@@ -28,6 +28,7 @@ function Skills(props) {
           <Skill name='sass' class='tech-icon' vector={props.sassIcon} />
           <Skill name='react' class='tech-icon' vector={props.reactIcon} />
           <Skill name='nextjs' class='tech-icon' vector={props.nextIcon} />
+          <Skill name='Vite' class='tech-icon' vector={props.viteIcon} />
         </div>
 
         <div className='skills-card'>
@@ -66,6 +67,11 @@ function Skills(props) {
             name='typescipt'
             class='tech-icon'
             vector={props.typescriptIcon}
+          />
+          <Skill
+            name='PlayWright'
+            class='tech-icon'
+            vector={props.playwrightIcon}
           />
         </div>
       </div>
